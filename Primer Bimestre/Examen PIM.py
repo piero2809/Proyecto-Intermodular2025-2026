@@ -33,7 +33,7 @@ def holamundo():
         footer {
             background: rgb(96, 170, 154);
             padding: 20px;
-            width: 800px;
+            width: 900px;
             margin: auto;
             text-align: center;
         }
@@ -68,6 +68,7 @@ def holamundo():
             <p>'''+fila[3]+'''</p>
             <img
                 src="https://tse3.mm.bing.net/th/id/OIP.ZDVq-76UPggSR5zN5WGVrwHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3">
+        </article>
         '''
     cadena += '''
      </main>
