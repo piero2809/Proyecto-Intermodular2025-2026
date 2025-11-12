@@ -6,13 +6,13 @@ conexion = mysql.connector.connect(
   user="portafolioexamen",
   password="1portafolioexamen",
   database="portafolioexamen"
-  )                                       # Me conecto a la base de datos
+)                                       # Me conecto a la base de datos
 cursor = conexion.cursor()                # Creo un cursor
 app = Flask(__name__)                     # Creo una aplicación Flask (web)
 
 @app.route("/")                           # Atrapo la ruta raiz (/)
 def holamundo():                          # Defino una funcion
-  cursor.execute("SELECT * FROM piezas_y_categorias;")  # Pido el contenido de la vista
+  cursor.execute("SELECT * FROM piezas_y_categorias_examen;")  # Pido el contenido de la vista
 
   filas = cursor.fetchall()                 # Lo guardo en una lista
   ########### AQUI PONGO EL INICIO HASTA EL MAIN
@@ -52,7 +52,7 @@ def holamundo():                          # Defino una funcion
         <p>Categoria</p>
         <h3>Titulo</h3>
         <p>Descripcion</p>
-        <img src="https://media.tenor.com/-C5C2LkQPTMAAAAM/sillynubcat-unzips-unzips.gif">
+        <img src="https://media.tenor.com/-C5C2LkQPTMAAAAM/sillynubcat-unzips-unzips.gif  ">
       </article>
     '''
   ########### AQUI PONGO EL FINAL
