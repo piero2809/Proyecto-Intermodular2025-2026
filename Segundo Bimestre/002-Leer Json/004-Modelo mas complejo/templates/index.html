@@ -9,6 +9,7 @@
     <h1>[nombre]</h1>
     <h2>[apellidos]</h2>
     <h3>[correo]</h3>
+    <h4>[Experiencias]</h4>
     <script>
         fetch ("static/curriculum.json") //Anda y busca
         .then(function(respuesta){
@@ -20,6 +21,8 @@
             document.querySelector("h1").textContent =datos.datos_personales.nombre
             document.querySelector("h2").textContent =datos.datos_personales.apellidos
             document.querySelector("h3").textContent =datos.datos_personales.correo
+            document.querySelector("h4").textContent=datos.experiencias_laborales.experiencia1
+            document.querySelector("h4").textContent=datos.experiencias_laborales.experiencia2
         }
     )
     </script>
