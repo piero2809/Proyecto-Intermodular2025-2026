@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Backoffice</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{background:rgb(81, 143, 224);width:100%;height:100%;padding:0px;margin:0px;}
+      main{display:flex;height:100%;}
+      header{color:white;padding:20px;}
+      nav{flex:1;color:white;padding:20px;}
+      section{flex:5;background:white;padding:20px;}
+    </style>
+  </head>
+  <body>
+    <header>Aplicación empresarial superchula de Piero</header>
+    <main>
+      <nav>
+        {%For tabla in mis_tablas:%}
+          <a> {{tabla}}</a>
+          {%endfor%}
+      </nav>
+      <section>Contenido
+      </section>
+    </main>
+  </body>
+</html>
