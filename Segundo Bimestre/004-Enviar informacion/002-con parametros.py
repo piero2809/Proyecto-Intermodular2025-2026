@@ -10,7 +10,7 @@ def envio ():
     nombre =  request.args.get("nombre")
     apellidos = request.args.get("apellidos")
     print (nombre,apellidos)
-    return "Mira en la consola si ha pasado algo"
+    return "nombre: " +nombre+ " - Apellidos: " +apellidos
 
 
 if __name__ =="__main__":
