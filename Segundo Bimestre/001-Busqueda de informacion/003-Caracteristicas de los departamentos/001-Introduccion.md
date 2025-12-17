@@ -34,3 +34,10 @@ Hay 12 departamentos, supongamos 1 persona por departamento, supongamos
 un sueldo bruto de 2200 euros en limpio 1500 
 
 26.400 euros en salarios cada mes
+
+De lo que se trata es de intentar reducir ese número a algo realista
+
+1-3
+
+Lo que queremos en esta subunidad es estimar los recursos que pueden ser necesarios
+Y los costes asociados de arrancar este proyecto
